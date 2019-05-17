@@ -3,7 +3,7 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Twitt</title>
+        <title>DoDo Plan</title>
         <link rel="stylesheet" href="/static/style.css">
         <#--&lt;#&ndash;font-awesome&ndash;&gt;-->
         <#--<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
