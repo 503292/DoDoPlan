@@ -1,4 +1,10 @@
 body {
     background-color: green;
     color: crimson;
+
+}
+
+#left_nav{
+    color: indianred;
+    font-family: "Trebuchet MS", Tahoma;
 }

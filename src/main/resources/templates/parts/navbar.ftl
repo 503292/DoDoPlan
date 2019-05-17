@@ -2,8 +2,11 @@
 <#import "login.ftl" as l>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <#--<img class="rounded-circle" src="../../images/Do.jpg" alt="НеЄ" >-->
-    <a class="navbar-brand" href="/">DoDo Plan</a>
+
+    <a class="navbar-brand" href="#">
+        <#--<img class="rounded-circle" src="citcv.jpg" width="64" height="64" alt="НеЄ" >-->
+        DoDo Plan
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
