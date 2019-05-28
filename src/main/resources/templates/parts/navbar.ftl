@@ -17,7 +17,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="/"><i class="fas fa-home" ></i> Home</a>
             </li>
-            <#if user??>
+            <#if isAdmin>
             <li class="nav-item">
                 <a class="nav-link" href="/main">Messages</a>
             </li>
@@ -27,7 +27,7 @@
                     <a class="nav-link" href="/user">User list</a>
                 </li>
             </#if>
-            <#if user??> <#-- якщо user авторизований  -->
+            <#if isAdmin> <#-- якщо user авторизований (user??) -->
                 <li class="nav-item">
                     <a class="nav-link" href="/user/profile">Profile</a>
                 </li>
