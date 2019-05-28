@@ -4,13 +4,5 @@ body {
 
 }
 
-#left_nav{
-    color: indianred;
-    font-family: "Courier New", Tahoma;
-}
 
-#board{
-    border-width: 1px;
-    border-style: solid;
-    border-color: lightgrey;
-}
+
