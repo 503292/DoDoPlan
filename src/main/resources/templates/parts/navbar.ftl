@@ -4,7 +4,9 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
     <a class="navbar-brand" href="#">
+        <#--<img src="/images/dodo-logo.png" class="img-fluid" alt="Responsive image">-->
         <#--<img class="rounded-circle" src="citcv.jpg" width="64" height="64" alt="НеЄ" >-->
+        <#--<h1 class="text-hide" style="background-image: url('/assets/brand/bootstrap-solid.svg'); width: 50px; height: 50px;">Bootstrap</h1>-->
         DoDo Plan
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
