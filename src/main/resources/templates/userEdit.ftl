@@ -8,7 +8,7 @@
 
     <form action="/user" method="post">
         <div class="ml-4">
-            <input type="text" name="username" value="${user.username}">
+            <input type="text" name="username" value="${user.username}" />
             <div>
                 <strong> - Checked roles:</strong>
                 <#list roles as role>
@@ -19,8 +19,8 @@
                     </div>
                 </#list>
             </div>
-            <input type="hidden" value="${user.id}" name="userId">
-            <input type="hidden" value="${_csrf.token}" name="_csrf">
+            <input type="hidden" value="${user.id}" name="userId" />
+            <input type="hidden" value="${_csrf.token}" name="_csrf" />
             <button class="btn btn-primary" type="submit"><strong>Save</strong></button>
         </div>
     </form>

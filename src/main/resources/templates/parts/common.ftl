@@ -21,7 +21,7 @@
     </head>
     <body>
     <#include "navbar.ftl">
-    <div class="ml-1 mt-3">
+    <div class="ml-1 mt-2">
         <#nested>
     </div>
     <!-- Optional JavaScript -->
