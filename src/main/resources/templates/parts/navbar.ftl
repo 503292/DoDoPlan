@@ -16,6 +16,13 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+
+            <#if user??>
+                <li class="nav-item ">
+                    <button class="form-control " href="#" style="background-color: #b2dba1"><strong>+ ЗАВДАННЯ</strong></button>
+                </li>
+            </#if>
+
             <#if isAdmin>
             <li class="nav-item">
                 <a class="nav-link" href="/main">Messages</a>

@@ -10,9 +10,9 @@
 
         <div class="row d-flex ">
 
-            <div class="card btn-group-vertical  border-0   col-auto btn-center  ">
+            <div class="card btn-group-vertical  border-0 ">
 
-                <div class=" card-body border-0  m-0 p-2" style="width: 14rem;">
+                <div class=" card-body border-0  m-0 p-0" style="width: 14rem;">
 
                     <button type="button" id="left-btn" class="rounded-0 btn btn-secondary  btn-light btn-lg"><i
                                 class="fas fa-thumbtack"></i>
@@ -32,8 +32,18 @@
 
                 </div>
             </div>
-            <div class="row col-10">
-                <div class="container-fluid  col-md-12 p-2"> { Дім / Робота }</div>
+            <div class="row col-10 m-2">
+                <div class="container-fluid  col-md-12 p-2"> { Дім / Робота }
+                    <div class="btn-group col-md-offset-2 col-md-6" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default">День</button>
+                        <button type="button" class="btn btn-default">Тиждень</button>
+                        <button type="button" class="btn btn-default">Місяць</button>
+                        <button type="button" class="btn btn-default">Ейзензауер</button>
+                        <button type="button" class="btn btn-default">ТуДу</button>
+                    </div>
+
+                </div>
+
 
                 <#if user??>
                 <div class="card ">
