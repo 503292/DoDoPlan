@@ -1,12 +1,13 @@
 <#import "parts/common.ftl" as c>
 <#include "parts/security.ftl" >
 
+<#include "parts/security.ftl" >
 
 <#--noinspection FtlWellformednessInspection-->
 <@c.page>
 
 
-    <div class="container-fluid" style="width: max-content">
+    <div  style="width: max-content">
 
         <div class="row d-flex " >
 
@@ -32,7 +33,7 @@
 
                 </div>
             </div>
-            <div class="row col col-md-10 m-2" style="width: max-content" >
+            <div class="container-fluid row col  m-2" style="width: max-content" >
                 <div class="container-fluid  col-md-12 p-2"> { Дім / Робота }
                     <div class="btn-group col-md-offset-2 col-md-10" role="group" aria-label="...">
                         <button type="button" class="btn btn-default ">День</button>

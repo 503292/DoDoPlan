@@ -2,13 +2,13 @@
 
 <#--noinspection FtlWellformednessInspection-->
 <@c.page>
-    <div class="ml-4">
+    <div class="ml-2">
         <div >
             <strong> List of users:</strong>
         </div>
 
 
-        <table border="2" >
+        <table class="table" border="1" >
             <thead>
             <tr>
                 <th>Name</th>
