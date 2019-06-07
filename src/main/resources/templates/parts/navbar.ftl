@@ -19,7 +19,12 @@
 
             <#if user??>
                 <li class="nav-item ">
-                    <button class="form-control " href="#" style="background-color: #b2dba1"><strong>+ ЗАВДАННЯ</strong></button>
+                    <button class="form-control " href="#" style="background-color: #b2dba1">
+                        <img src="/images/dodo-logo.png" class="img-fluid" alt="Responsive image">-->
+                        <img class="rounded-circle" src="/images/dodo-logo.png" width="64" height="64" alt="НеЄ" >-->
+
+
+                        <strong>+ ЗАВДАННЯ</strong></button>
                 </li>
             </#if>
 

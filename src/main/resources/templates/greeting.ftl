@@ -6,9 +6,9 @@
 <@c.page>
 
 
-    <div class="container-fluid">
+    <div class="container-fluid" style="width: max-content">
 
-        <div class="row d-flex ">
+        <div class="row d-flex " >
 
             <div class="card btn-group-vertical  border-0 ">
 
@@ -32,10 +32,10 @@
 
                 </div>
             </div>
-            <div class="row col-10 m-2">
+            <div class="row col col-md-10 m-2" style="width: max-content" >
                 <div class="container-fluid  col-md-12 p-2"> { Дім / Робота }
-                    <div class="btn-group col-md-offset-2 col-md-6" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default">День</button>
+                    <div class="btn-group col-md-offset-2 col-md-10" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default ">День</button>
                         <button type="button" class="btn btn-default">Тиждень</button>
                         <button type="button" class="btn btn-default">Місяць</button>
                         <button type="button" class="btn btn-default">Ейзензауер</button>
@@ -46,7 +46,7 @@
 
 
                 <#if user??>
-                <div class="card ">
+                <div class="card " >
 
                     <div class="card-header ">
                         <div class="d-flex ">
@@ -149,7 +149,7 @@
 
                     <div class="card-header ">
                         <div class="d-flex ">
-                            <h5 class="card-title">Коли небудь</h5>
+                            <h5 class="card-title">У майбутньому</h5>
                         </div>
                     </div>
 
@@ -187,10 +187,11 @@
                 </div>
             </#if>
         </div>
+        <div>
+            Footer
+        </div>
     </div>
 
 
-    <div>
-        Footer
-    </div>
+
 </@c.page>
