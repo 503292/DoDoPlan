@@ -7,13 +7,14 @@
 <@c.page>
 
 
-    <div  style="width: max-content">
+    <div style="height: border-box; width: max-content; background-color: gainsboro">
 
-        <div class="row d-flex " >
+        <div class="row d-flex ">
 
-            <div class="card btn-group-vertical  border-0 ">
+            <div class="card btn-group-vertical  border-1  navbar-left ">
 
-                <div class=" card-body border-0  m-0 p-0" style="width: 14rem;">
+                <div class=" card-body border-0  m-0 p-0"
+                     style="align-content: flex-start; width: min-content; background-color: #F8F9FA ">
 
                     <button type="button" id="left-btn" class="rounded-0 btn btn-secondary  btn-light btn-lg"><i
                                 class="fas fa-thumbtack"></i>
@@ -33,21 +34,21 @@
 
                 </div>
             </div>
-            <div class="container-fluid row col  m-2" style="width: max-content" >
-                <div class="container-fluid  col-md-12 p-2"> { Дім / Робота }
-                    <div class="btn-group col-md-offset-2 col-md-10" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default ">День</button>
-                        <button type="button" class="btn btn-default">Тиждень</button>
-                        <button type="button" class="btn btn-default">Місяць</button>
-                        <button type="button" class="btn btn-default">Ейзензауер</button>
-                        <button type="button" class="btn btn-default">ТуДу</button>
+            <div class="container-fluid row " style="width: max-content">
+                <div class="container-fluid  ">
+                    <strong>{ Дім / Робота }</strong>
+                    <div class="btn-group col-md-offset-2 col-md-10 pt-2" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default" style="margin-bottom: 15px">День</button>
+                        <button type="button" class="btn btn-default" style="margin-bottom: 15px">Тиждень</button>
+                        <button type="button" class="btn btn-default" style="margin-bottom: 15px">Місяць</button>
+                        <button type="button" class="btn btn-default" style="margin-bottom: 15px">Ейзензауер</button>
+                        <button type="button" class="btn btn-default" style="margin-bottom: 15px">ТуДу</button>
                     </div>
 
+
                 </div>
-
-
                 <#if user??>
-                <div class="card " >
+                <div class="card ">
 
                     <div class="card-header ">
                         <div class="d-flex ">
@@ -180,19 +181,25 @@
                 </div>
 
 
+
             </div>
-            <#else>
-                <div class="col-md-10 ">
-                    <h5>Hello, guest</h5>
-                    <div>This is a simple Planner for YOU</div>
-                </div>
-            </#if>
+
+
         </div>
-        <div>
-            Footer
-        </div>
+        <#else>
+            <div class="col-md-10 ">
+                <h5>Hello, guest</h5>
+                <div>This is a simple Planner for YOU</div>
+            </div>
+        </#if>
+
+
     </div>
 
 
+    </div>
+    <div style="align-content: start">
+        Footer
+    </div>
 
 </@c.page>

@@ -8,12 +8,12 @@
         </div>
 
 
-        <table class="table" border="1" >
+        <table class="table" border="2" >
             <thead>
             <tr>
                 <th>Name</th>
                 <th>Role</th>
-                <th></th>
+                <th>If you ADMIN edit this if not "GO away ******"</th>
             </tr>
             </thead>
             <tbody>

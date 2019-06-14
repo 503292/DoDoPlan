@@ -8,7 +8,7 @@
         <#--&lt;#&ndash;font-awesome&ndash;&gt;-->
         <#--<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
         <!-- підбирає розмір виведення контенту-->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width,  initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet"

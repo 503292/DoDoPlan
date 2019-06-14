@@ -10,13 +10,13 @@
         <div class="ml-4">
             <input type="text" name="username" value="${user.username}" />
             <div>
-                <strong> - Checked roles:</strong>
+                <strong> - Checked roles:</strong><br>
                 <#list roles as role>
-                    <div class="ml-4">
+
                         <label><input type="checkbox"
                                       name="${role}" ${user.roles?seq_contains(role)?string("checked", "")}>${role}
                         </label>
-                    </div>
+
                 </#list>
             </div>
             <input type="hidden" value="${user.id}" name="userId" />
