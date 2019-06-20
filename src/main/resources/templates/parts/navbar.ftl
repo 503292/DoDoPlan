@@ -4,8 +4,8 @@
 <nav class=" container-fluid navbar navbar-expand-lg navbar-light bg-light">
 
 
-    <div><a class="navbar-brand" href="/home">
-            DoDo Plan</a>
+    <div class="nav-item">
+        <a class="nav-link" href="/home">DoDo Plan</a>
     </div>
     <div class="navbar-brand" id="left-btn">
         <!-- Large modal -->

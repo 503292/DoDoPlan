@@ -4,9 +4,14 @@
 <@c.page>
     <nav class="left-container">
         <div>
-            sss
+            <#list messages as message>
+                <div class="m-2">
+                    <span>${message.text}</span>
+                </div>
+            <#else>
+                No message
+            </#list>
         </div>
-
     </nav>
 
 
