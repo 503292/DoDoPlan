@@ -2,7 +2,7 @@
 
 <#--noinspection FtlWellformednessInspection-->
 <@c.page>
-    <div class="ml-2">
+    <div class="mx-2">
         <div >
             <strong> List of users:</strong>
         </div>

@@ -2,12 +2,12 @@
 
 <#--noinspection FtlWellformednessInspection-->
 <@c.page>
-    <div class="ml-4">
+    <div class="mx-4">
         <strong> - Enter new user name:</strong>
     </div>
 
     <form action="/user" method="post">
-        <div class="ml-4">
+        <div class="mx-4">
             <input type="text" name="username" value="${user.username}" />
             <div>
                 <strong> - Checked roles:</strong><br>

@@ -1,7 +1,6 @@
 <#import "parts/common.ftl" as c>
 <#include "parts/security.ftl" >
 
-<#include "parts/security.ftl" >
 
 <#--noinspection FtlWellformednessInspection-->
 <@c.page>
@@ -16,7 +15,7 @@
                 <div class=" card-body border-0  m-0 p-0"
                      style="align-content: flex-start; width: min-content; background-color: #F8F9FA ">
 
-                    <button type="button" id="left-btn" class="rounded-0 btn btn-secondary  btn-light btn-lg"><i
+                    <button type="button" class="rounded-0 btn btn-secondary  btn-light btn-lg"><i
                                 class="fas fa-thumbtack"></i>
                         Всі завдання
                     </button>
@@ -76,10 +75,7 @@
 
                             </div>
                         </div>
-
-
                     </div>
-
                 </div>
                 <div class="card ">
 
@@ -142,10 +138,7 @@
 
                             </div>
                         </div>
-
-
                     </div>
-
                 </div>
                 <div class="card ">
 
@@ -166,22 +159,17 @@
                             </ul>
                         </div>
 
-
                         <div class="input">
                             <div class="row ">
 
                                 <input class="form-control  col-10" type="text" placeholder="Введіть нове завдання">
 
                                 <button class="form-control col-2"><i class="fas fa-arrow-up"></i></button>
-                                <#--<button class="form-control glyphicon-play-circle col-2"><i class="fas fa-arrow-up"></i></button>-->
 
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
 
 

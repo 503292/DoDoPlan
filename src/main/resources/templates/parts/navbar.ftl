@@ -4,15 +4,8 @@
 <nav class=" container-fluid navbar navbar-expand-lg navbar-light bg-light">
 
 
-    <div><a class="navbar-brand" href="#">
-            <#--<img src="/images/dodo-logo.png" class="img-fluid" alt="Responsive image">-->
-            <#--<img class="rounded-circle" src="citcv.jpg" width="64" height="64" alt="НеЄ" >-->
-            <#--<h1 class="text-hide" style="background-image: url('/assets/brand/bootstrap-solid.svg'); width: 50px; height: 50px;">Bootstrap</h1>-->
-
-            DoDo Plan
-
-
-        </a>
+    <div><a class="navbar-brand" href="/home">
+            DoDo Plan</a>
     </div>
     <div class="navbar-brand" id="left-btn">
         <!-- Large modal -->
@@ -22,8 +15,8 @@
         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
              aria-hidden="true">
             <div class="modal-dialog modal-lg">
-                <div class="modal-content " >
-                    <form method="post" >
+                <div class="modal-content ">
+                    <form method="post">
                         <div class="row">
                             <div class="col">
 
@@ -40,10 +33,14 @@
                             </div>
                             <div class="col m-2 ">
                                 <p>Чекбокси</p>
-                                <button type="button" class="btn m-2">Сьогодні</button><br>
-                                <button type="button" class="btn m-2"> Завтра</button><br>
-                                <button type="button" class="btn m-2">Календар</button><br>
-                                <button type="button" class="btn m-2">Коли небудь</button><br>
+                                <button type="button" class="btn m-2">Сьогодні</button>
+                                <br>
+                                <button type="button" class="btn m-2"> Завтра</button>
+                                <br>
+                                <button type="button" class="btn m-2">Календар</button>
+                                <br>
+                                <button type="button" class="btn m-2">Коли небудь</button>
+                                <br>
                                 <button type="button" class="btn m-2">У майбутньому</button>
 
                             </div>
